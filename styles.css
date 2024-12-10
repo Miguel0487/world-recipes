@@ -1,0 +1,175 @@
+.menu {
+    background-color:rgb(60, 132, 220)
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+    gap: 20px; /* Espacio entre columnas */
+    margin: 20px;
+}
+
+.columns-2 {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box; /* Importante para manejar correctamente cualquier padding */
+}
+
+.recipe-of-the-week, .news {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#searchInput {
+    display: block; /* Para ajustar bien el borde */
+    margin: auto; /* Centra el input horizontalmente */
+    border: 2px solid rgb(60, 132, 220);
+    padding: 10px;
+    font-size: 12px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.menu li {
+    margin: 15px;
+}
+
+.menu a {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.brand {
+    color:rgb(60, 132, 220);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.webicon {
+    display:flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: rgb(60, 132, 220);
+    width:12%;
+}
+
+.star {
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.star.filled {
+    color: gold;
+}
+
+.star:hover {
+    color: orange;
+}
+
+.rating-section h5 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.rating {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.star {
+    margin-right: 5px;
+    display: inline-block;
+}
+
+footer {
+    background-color: rgb(60, 132, 220);
+    color: white;
+    padding: 10px 0;
+    height: 30px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 30px;
+  }
+  
+  .social-media-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-media-list li {
+    margin: 0 20px;
+  }
+  
+  .social-media-list a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .terms-of-service {
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  
+  .terms-of-service a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas iguales */
+    grid-template-rows: auto; /* Ajuste automático en las filas */
+    gap: 10px; /* Espacio entre columnas */
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.grid-item2{
+    text-align: right
+    }
+
+.grid-others {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ajusta el espacio entre los elementos */
+    gap: 16px; /* Opcional: añade espacio entre los elementos */
+  }
+
+  .grid-others-item {
+    flex: 1 1 calc(16.66% - 16px); /* Tres columnas con espacio */
+  max-width: calc(16.66% - 16px); /* Garantiza el ancho máximo */
+  box-sizing: border-box; /* Incluye padding y border en el ancho */
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  }
